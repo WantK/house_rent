@@ -1,0 +1,129 @@
+﻿body {
+}
+header{
+    font-size:40px;
+    margin-bottom:30px;
+    font-family:sans-serif;
+}
+div{
+    margin:0;
+    padding:0;
+}
+#hook{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.wrap{
+    box-sizing:border-box;
+    height:100vh;
+    background:url(3.jpg) center center;
+    background-size:cover;
+    position:relative;
+}
+.form-data{
+    background-color:#fff;
+    width:60%;
+    border-radius:5px;
+    box-shadow:0px 0px 30px rgba(0,0,0,10);
+    padding:65px 0 30px 0;
+    position:fixed;
+    top:50%;
+    transform:translate(-50%,-50%);
+    left:50%;
+    opacity:0.80;
+}
+.all{
+    margin:30px;
+}
+.form{
+    height:300px;
+}
+.form1{
+    box-sizing:border-box;
+    border-right:3px dashed #e5e5e5;
+    float:left;
+    width:40%;
+    margin-right:30px;
+    position:relative;
+}
+.form2{
+    box-sizing:border-box;
+    float:right;
+    width:10%;
+    position:relative;
+}
+.form1 .timeInput .p-input{
+    position:relative;
+    margin-bottom:5px;
+}
+.p-input{
+    padding:5px 0;
+    height:44px;
+    box-sizing:border-box;
+    border-bottom:#e5e5e5 1px solid;
+    width:80%;
+    margin:0 auto 16px;
+    line-height:14px;
+    display:block; 
+}
+.pos{
+    position:relative;
+}
+.lang-btn{
+    box-sizing:border-box;
+    cursor:pointer;
+    background-color:#3499da;
+    height:40px;
+    width:80px;
+    line-height:40px;
+    font-size:16px;
+    color:#fff;
+    border:none;
+    letter-spacing:1px;
+    overflow:hidden;
+    text-align:center;
+    border-radius:2px;
+}
+.float2{
+    position:relative;
+    margin-top:10px;
+}
+.float1{
+    position:absolute;
+    bottom:10px;
+    left:0;
+}
+.timeInput{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    border-top:3px dashed #e5e5e5;
+    width:90%;
+    height:55%;
+}
+.form1 .timeInput label{
+    font-size:14px;
+    position:absolute;
+    display:inline-block;
+    color:#cacaca;
+    top:22px;
+    right:10px;
+}
+.form1 .timeInput input{
+    outline:none;
+    border:none;
+    z-index:5;
+    position:absolute;
+    top:13px;
+    width:100%;
+    background-color:transparent;
+    font-size:14px;
+    color:#cacaca;
+    font-family:sans-serif;
+}
+.form1 h2{
+    font-size:20px;
+    margin-top:5px;
+}
